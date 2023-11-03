@@ -19,6 +19,9 @@ Format the output to be in the following format:
 - Additional notes:
 """
 
+if not st.session_state.get("messages"):
+    st.caption("What would you like to build today?")
+
 if "openai_model" not in st.session_state:
     st.session_state["openai_model"] = "gpt-4"
 
