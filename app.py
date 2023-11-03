@@ -12,7 +12,11 @@ the sensors and ports I'll need to connect together with the arduino code
 I'll need to write. Write some test code where possible. Here are my 
 requirements:
 
-
+Format the output to be in the following format:
+- Hardware required:
+- Wiring:
+- Arduino code:
+- Additional notes:
 """
 
 if "openai_model" not in st.session_state:
